@@ -1,8 +1,8 @@
-# Install script for directory: /home/meam/wheelchair_ws/src/spencer_people_tracking/utils/spencer_people_tracking_full
+# Install script for directory: /home/umut/wheelchair_ws/src/spencer_people_tracking/utils/spencer_people_tracking_full
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/meam/wheelchair_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/umut/wheelchair_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_people_tracking_full" TYPE FILE FILES "/home/meam/wheelchair_ws/src/spencer_people_tracking/utils/spencer_people_tracking_full/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_people_tracking_full" TYPE FILE FILES "/home/umut/wheelchair_ws/src/spencer_people_tracking/utils/spencer_people_tracking_full/package.xml")
 endif()
 

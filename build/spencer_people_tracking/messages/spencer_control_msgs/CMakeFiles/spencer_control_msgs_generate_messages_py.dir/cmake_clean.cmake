@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/python3/dist-packages/spencer_control_msgs/msg/_ComponentStatus.py"
-  "/home/meam/wheelchair_ws/devel/lib/python3/dist-packages/spencer_control_msgs/msg/__init__.py"
+  "/home/umut/wheelchair_ws/devel/lib/python3/dist-packages/spencer_control_msgs/msg/_ComponentStatus.py"
+  "/home/umut/wheelchair_ws/devel/lib/python3/dist-packages/spencer_control_msgs/msg/__init__.py"
   "CMakeFiles/spencer_control_msgs_generate_messages_py"
 )
 

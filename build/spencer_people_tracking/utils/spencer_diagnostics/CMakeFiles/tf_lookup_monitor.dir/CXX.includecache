@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/meam/wheelchair_ws/devel/include/spencer_control_msgs/ComponentStatus.h
+/home/umut/wheelchair_ws/devel/include/spencer_control_msgs/ComponentStatus.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/meam/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/src/spencer_diagnostics/tf_lookup_monitor.cpp
+/home/umut/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/src/spencer_diagnostics/tf_lookup_monitor.cpp
 tf/tf.h
 -
 tf/transform_listener.h

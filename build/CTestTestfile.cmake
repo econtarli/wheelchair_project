@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/meam/wheelchair_ws/src
-# Build directory: /home/meam/wheelchair_ws/build
+# Source directory: /home/umut/wheelchair_ws/src
+# Build directory: /home/umut/wheelchair_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
@@ -53,7 +53,7 @@ subdirs("turtlebot3/turtlebot3_teleop")
 subdirs("spencer_people_tracking/visualization/spencer_tracking_rviz_plugin")
 subdirs("spencer_people_tracking/utils/track_annotation_tool")
 subdirs("spencer_people_tracking/utils/video_to_bagfile")
-subdirs("wheel_chair")
+subdirs("wheelchair_urdf")
 subdirs("wheelchair")
 subdirs("wheelchair_navigation")
 subdirs("turtlebot3/turtlebot3_description")

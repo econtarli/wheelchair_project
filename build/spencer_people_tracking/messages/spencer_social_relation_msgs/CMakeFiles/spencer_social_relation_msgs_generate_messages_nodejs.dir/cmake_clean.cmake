@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/spencer_social_relation_msgs/msg/SocialActivities.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/spencer_social_relation_msgs/msg/SocialActivity.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/spencer_social_relation_msgs/msg/SocialRelation.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/spencer_social_relation_msgs/msg/SocialRelations.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/spencer_social_relation_msgs/msg/SocialActivities.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/spencer_social_relation_msgs/msg/SocialActivity.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/spencer_social_relation_msgs/msg/SocialRelation.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/spencer_social_relation_msgs/msg/SocialRelations.js"
   "CMakeFiles/spencer_social_relation_msgs_generate_messages_nodejs"
 )
 

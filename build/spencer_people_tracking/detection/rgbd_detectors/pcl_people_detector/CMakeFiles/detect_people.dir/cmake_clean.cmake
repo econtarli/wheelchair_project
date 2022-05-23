@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/pcl_people_detector/detect_people"
-  "/home/meam/wheelchair_ws/devel/lib/pcl_people_detector/detect_people.pdb"
+  "/home/umut/wheelchair_ws/devel/lib/pcl_people_detector/detect_people"
+  "/home/umut/wheelchair_ws/devel/lib/pcl_people_detector/detect_people.pdb"
   "CMakeFiles/detect_people.dir/src/detect_people.cpp.o"
 )
 

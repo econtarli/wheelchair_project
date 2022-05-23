@@ -67,14 +67,14 @@ set(srl_laser_features_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(srl_laser_features_SOURCE_PREFIX /home/meam/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/srl_laser_features)
-  set(srl_laser_features_DEVEL_PREFIX /home/meam/wheelchair_ws/devel)
+  set(srl_laser_features_SOURCE_PREFIX /home/umut/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/srl_laser_features)
+  set(srl_laser_features_DEVEL_PREFIX /home/umut/wheelchair_ws/devel)
   set(srl_laser_features_INSTALL_PREFIX "")
   set(srl_laser_features_PREFIX ${srl_laser_features_DEVEL_PREFIX})
 else()
   set(srl_laser_features_SOURCE_PREFIX "")
   set(srl_laser_features_DEVEL_PREFIX "")
-  set(srl_laser_features_INSTALL_PREFIX /home/meam/wheelchair_ws/install)
+  set(srl_laser_features_INSTALL_PREFIX /home/umut/wheelchair_ws/install)
   set(srl_laser_features_PREFIX ${srl_laser_features_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(srl_laser_features_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/meam/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/srl_laser_features/include " STREQUAL " ")
+if(NOT "/home/umut/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/srl_laser_features/include " STREQUAL " ")
   set(srl_laser_features_INCLUDE_DIRS "")
-  set(_include_dirs "/home/meam/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/srl_laser_features/include")
+  set(_include_dirs "/home/umut/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/srl_laser_features/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/meam/wheelchair_ws/src/spencer_people_tracking/detection/laser_det
         message(FATAL_ERROR "Project 'srl_laser_features' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'srl_laser_features' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/meam/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/srl_laser_features/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'srl_laser_features' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/umut/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/srl_laser_features/${idir}'.  ${_report}")
     endif()
     _list_append_unique(srl_laser_features_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/meam/wheelchair_ws/devel/lib;/home/meam/wheelchair_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/umut/wheelchair_ws/devel/lib;/home/umut/wheelchair_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

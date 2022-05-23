@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/spencer_bagfile_tools/panorama_builder"
-  "/home/meam/wheelchair_ws/devel/lib/spencer_bagfile_tools/panorama_builder.pdb"
+  "/home/umut/wheelchair_ws/devel/lib/spencer_bagfile_tools/panorama_builder"
+  "/home/umut/wheelchair_ws/devel/lib/spencer_bagfile_tools/panorama_builder.pdb"
   "CMakeFiles/panorama_builder.dir/src/spencer_bagfile_tools/panorama_builder.cpp.o"
 )
 

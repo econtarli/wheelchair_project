@@ -5,7 +5,7 @@
     <arg name="map_file" default="$(find wheelchair)/maps/map_1/map.yaml" />
 
     <!-- Load the wheelchair URDF model into the parameter server -->
-    <param name="robot_description" textfile="$(find wheel_chair)/urdf/wheel_chair.urdf" />
+    <param name="robot_description" textfile="$(find wheelchair)/urdf/wheel_chair.urdf" />
 
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
 
@@ -15,7 +15,7 @@
     <include file="$(find roboteq_diff_driver)/launch/driver.launch" />
 
     <!-- Run RPlidar-->
-    <include file="$(find rplidar_ros)/launch/rplidar.launch" />
+    <include file="$(find rplidar_ros)/launch/rplidars.launch" />
 
     <!-- Run RealSense-->
     <!-- <include file="$(find realsense2_camera)/launch/rs_camera.launch" />-->
@@ -24,7 +24,7 @@
     <include file="$(find wheelchair)/launch/rp_filter.launch" />
     
     <!-- RP merge -->
-    <!-- <include file="$(find wheelchair)/launch/laserscan_multi_merger.launch" />-->
+    <include file="$(find wheelchair)/launch/laserscan_multi_merger.launch" />
 
     <!-- Rviz -->
     <group if="$(arg open_rviz)">

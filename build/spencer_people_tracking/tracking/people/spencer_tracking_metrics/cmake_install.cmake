@@ -1,8 +1,8 @@
-# Install script for directory: /home/meam/wheelchair_ws/src/spencer_people_tracking/tracking/people/spencer_tracking_metrics
+# Install script for directory: /home/umut/wheelchair_ws/src/spencer_people_tracking/tracking/people/spencer_tracking_metrics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/meam/wheelchair_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/umut/wheelchair_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,32 +38,32 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/meam/wheelchair_ws/build/spencer_people_tracking/tracking/people/spencer_tracking_metrics/catkin_generated/safe_execute_install.cmake")
+  include("/home/umut/wheelchair_ws/build/spencer_people_tracking/tracking/people/spencer_tracking_metrics/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/meam/wheelchair_ws/build/spencer_people_tracking/tracking/people/spencer_tracking_metrics/catkin_generated/installspace/spencer_tracking_metrics.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/umut/wheelchair_ws/build/spencer_people_tracking/tracking/people/spencer_tracking_metrics/catkin_generated/installspace/spencer_tracking_metrics.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_metrics/cmake" TYPE FILE FILES
-    "/home/meam/wheelchair_ws/build/spencer_people_tracking/tracking/people/spencer_tracking_metrics/catkin_generated/installspace/spencer_tracking_metricsConfig.cmake"
-    "/home/meam/wheelchair_ws/build/spencer_people_tracking/tracking/people/spencer_tracking_metrics/catkin_generated/installspace/spencer_tracking_metricsConfig-version.cmake"
+    "/home/umut/wheelchair_ws/build/spencer_people_tracking/tracking/people/spencer_tracking_metrics/catkin_generated/installspace/spencer_tracking_metricsConfig.cmake"
+    "/home/umut/wheelchair_ws/build/spencer_people_tracking/tracking/people/spencer_tracking_metrics/catkin_generated/installspace/spencer_tracking_metricsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_metrics" TYPE FILE FILES "/home/meam/wheelchair_ws/src/spencer_people_tracking/tracking/people/spencer_tracking_metrics/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_metrics" TYPE FILE FILES "/home/umut/wheelchair_ws/src/spencer_people_tracking/tracking/people/spencer_tracking_metrics/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/spencer_tracking_metrics" TYPE PROGRAM FILES
-    "/home/meam/wheelchair_ws/src/spencer_people_tracking/tracking/people/spencer_tracking_metrics/scripts/dataset_stats.py"
-    "/home/meam/wheelchair_ws/src/spencer_people_tracking/tracking/people/spencer_tracking_metrics/scripts/online_analysis.py"
+    "/home/umut/wheelchair_ws/src/spencer_people_tracking/tracking/people/spencer_tracking_metrics/scripts/dataset_stats.py"
+    "/home/umut/wheelchair_ws/src/spencer_people_tracking/tracking/people/spencer_tracking_metrics/scripts/online_analysis.py"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_metrics/launch" TYPE DIRECTORY FILES "/home/meam/wheelchair_ws/src/spencer_people_tracking/tracking/people/spencer_tracking_metrics/launch/" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_metrics/launch" TYPE DIRECTORY FILES "/home/umut/wheelchair_ws/src/spencer_people_tracking/tracking/people/spencer_tracking_metrics/launch/" REGEX "/\\.svn$" EXCLUDE)
 endif()
 

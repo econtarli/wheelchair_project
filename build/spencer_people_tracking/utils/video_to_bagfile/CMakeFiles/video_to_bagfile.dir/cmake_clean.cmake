@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/video_to_bagfile/video_to_bagfile"
-  "/home/meam/wheelchair_ws/devel/lib/video_to_bagfile/video_to_bagfile.pdb"
+  "/home/umut/wheelchair_ws/devel/lib/video_to_bagfile/video_to_bagfile"
+  "/home/umut/wheelchair_ws/devel/lib/video_to_bagfile/video_to_bagfile.pdb"
   "CMakeFiles/video_to_bagfile.dir/src/video_to_bagfile/video_to_bagfile.cpp.o"
 )
 

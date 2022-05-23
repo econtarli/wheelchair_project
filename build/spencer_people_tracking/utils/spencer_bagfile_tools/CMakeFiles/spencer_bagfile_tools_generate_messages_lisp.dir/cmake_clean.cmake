@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/share/common-lisp/ros/spencer_bagfile_tools/msg/AdditionalOdometryData.lisp"
+  "/home/umut/wheelchair_ws/devel/share/common-lisp/ros/spencer_bagfile_tools/msg/AdditionalOdometryData.lisp"
   "CMakeFiles/spencer_bagfile_tools_generate_messages_lisp"
 )
 

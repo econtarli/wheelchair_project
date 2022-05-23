@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py"
-  "/home/meam/wheelchair_ws/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py"
-  "/home/meam/wheelchair_ws/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py"
-  "/home/meam/wheelchair_ws/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py"
-  "/home/meam/wheelchair_ws/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py"
+  "/home/umut/wheelchair_ws/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImage.py"
+  "/home/umut/wheelchair_ws/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonImages.py"
+  "/home/umut/wheelchair_ws/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROI.py"
+  "/home/umut/wheelchair_ws/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/_PersonROIs.py"
+  "/home/umut/wheelchair_ws/devel/lib/python3/dist-packages/spencer_vision_msgs/msg/__init__.py"
   "CMakeFiles/spencer_vision_msgs_generate_messages_py"
 )
 

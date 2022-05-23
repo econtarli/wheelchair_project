@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/meam/wheelchair_ws/devel/include/spencer_tracking_msgs/DetectedPerson.h
+/home/umut/wheelchair_ws/devel/include/spencer_tracking_msgs/DetectedPerson.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 geometry_msgs/PoseWithCovariance.h
 -
 
-/home/meam/wheelchair_ws/devel/include/spencer_tracking_msgs/DetectedPersons.h
+/home/umut/wheelchair_ws/devel/include/spencer_tracking_msgs/DetectedPersons.h
 string
 -
 vector
@@ -44,7 +44,7 @@ std_msgs/Header.h
 spencer_tracking_msgs/DetectedPerson.h
 -
 
-/home/meam/wheelchair_ws/src/spencer_people_tracking/tracking/people/spencer_tracking_utils/src/spencer_tracking_utils/filter_detections_by_static_map.cpp
+/home/umut/wheelchair_ws/src/spencer_people_tracking/tracking/people/spencer_tracking_utils/src/spencer_tracking_utils/filter_detections_by_static_map.cpp
 ros/ros.h
 -
 spencer_tracking_msgs/DetectedPersons.h

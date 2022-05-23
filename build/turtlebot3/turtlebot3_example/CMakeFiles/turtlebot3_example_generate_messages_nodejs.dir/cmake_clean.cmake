@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Action.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionResult.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Feedback.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Goal.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Result.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Action.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3ActionResult.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Feedback.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Goal.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/turtlebot3_example/msg/Turtlebot3Result.js"
   "CMakeFiles/turtlebot3_example_generate_messages_nodejs"
 )
 

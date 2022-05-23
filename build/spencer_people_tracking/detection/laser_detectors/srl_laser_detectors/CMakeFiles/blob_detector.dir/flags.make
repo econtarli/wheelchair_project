@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"srl_laser_detectors\"
 
-CXX_INCLUDES = -I/usr/include/opencv4 -I/home/meam/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/srl_laser_detectors/include -I/home/meam/wheelchair_ws/devel/include -I/home/meam/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/srl_laser_features/include -I/home/meam/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/usr/include/opencv4 -I/home/umut/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/srl_laser_detectors/include -I/home/umut/wheelchair_ws/devel/include -I/home/umut/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/srl_laser_features/include -I/home/umut/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

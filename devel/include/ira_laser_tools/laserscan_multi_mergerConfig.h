@@ -422,7 +422,7 @@ laserscan_multi_mergerConfig::GroupDescription<laserscan_multi_mergerConfig::DEF
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __max__.angle_min = 3.141592653589793;
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __default__.angle_min = -2.36;
+      __default__.angle_min = -3.14;
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Default.abstract_parameters.push_back(laserscan_multi_mergerConfig::AbstractParamDescriptionConstPtr(new laserscan_multi_mergerConfig::ParamDescription<double>("angle_min", "double", 0, "Minimum angle of the output scan", "", &laserscan_multi_mergerConfig::angle_min)));
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
@@ -432,7 +432,7 @@ laserscan_multi_mergerConfig::GroupDescription<laserscan_multi_mergerConfig::DEF
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __max__.angle_max = 3.141592653589793;
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __default__.angle_max = 2.36;
+      __default__.angle_max = 3.14;
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Default.abstract_parameters.push_back(laserscan_multi_mergerConfig::AbstractParamDescriptionConstPtr(new laserscan_multi_mergerConfig::ParamDescription<double>("angle_max", "double", 0, "Maximum angle of the output scan", "", &laserscan_multi_mergerConfig::angle_max)));
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
@@ -462,7 +462,7 @@ laserscan_multi_mergerConfig::GroupDescription<laserscan_multi_mergerConfig::DEF
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __max__.scan_time = 1.0;
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __default__.scan_time = 0.033333333;
+      __default__.scan_time = 0.08801;
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Default.abstract_parameters.push_back(laserscan_multi_mergerConfig::AbstractParamDescriptionConstPtr(new laserscan_multi_mergerConfig::ParamDescription<double>("scan_time", "double", 0, "Scan time of the output scan", "", &laserscan_multi_mergerConfig::scan_time)));
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
@@ -472,7 +472,7 @@ laserscan_multi_mergerConfig::GroupDescription<laserscan_multi_mergerConfig::DEF
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __max__.range_min = 50.0;
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __default__.range_min = 0.45;
+      __default__.range_min = 0.15;
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Default.abstract_parameters.push_back(laserscan_multi_mergerConfig::AbstractParamDescriptionConstPtr(new laserscan_multi_mergerConfig::ParamDescription<double>("range_min", "double", 0, "Range min of the output scan", "", &laserscan_multi_mergerConfig::range_min)));
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
@@ -482,7 +482,7 @@ laserscan_multi_mergerConfig::GroupDescription<laserscan_multi_mergerConfig::DEF
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __max__.range_max = 1000.0;
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __default__.range_max = 25.0;
+      __default__.range_max = 11.0;
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Default.abstract_parameters.push_back(laserscan_multi_mergerConfig::AbstractParamDescriptionConstPtr(new laserscan_multi_mergerConfig::ParamDescription<double>("range_max", "double", 0, "Range max of the output scan", "", &laserscan_multi_mergerConfig::range_max)));
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"

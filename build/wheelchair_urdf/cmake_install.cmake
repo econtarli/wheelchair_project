@@ -1,8 +1,8 @@
-# Install script for directory: /home/meam/wheelchair_ws/src/wheel_chair
+# Install script for directory: /home/umut/wheelchair_ws/src/wheelchair_urdf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/meam/wheelchair_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/umut/wheelchair_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/meam/wheelchair_ws/build/wheel_chair/catkin_generated/installspace/wheel_chair.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/umut/wheelchair_ws/build/wheelchair_urdf/catkin_generated/installspace/wheel_chair.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wheel_chair/cmake" TYPE FILE FILES
-    "/home/meam/wheelchair_ws/build/wheel_chair/catkin_generated/installspace/wheel_chairConfig.cmake"
-    "/home/meam/wheelchair_ws/build/wheel_chair/catkin_generated/installspace/wheel_chairConfig-version.cmake"
+    "/home/umut/wheelchair_ws/build/wheelchair_urdf/catkin_generated/installspace/wheel_chairConfig.cmake"
+    "/home/umut/wheelchair_ws/build/wheelchair_urdf/catkin_generated/installspace/wheel_chairConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wheel_chair" TYPE FILE FILES "/home/meam/wheelchair_ws/src/wheel_chair/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wheel_chair" TYPE FILE FILES "/home/umut/wheelchair_ws/src/wheelchair_urdf/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wheel_chair/config" TYPE DIRECTORY FILES "/home/meam/wheelchair_ws/src/wheel_chair/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wheel_chair/config" TYPE DIRECTORY FILES "/home/umut/wheelchair_ws/src/wheelchair_urdf/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wheel_chair/launch" TYPE DIRECTORY FILES "/home/meam/wheelchair_ws/src/wheel_chair/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wheel_chair/launch" TYPE DIRECTORY FILES "/home/umut/wheelchair_ws/src/wheelchair_urdf/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wheel_chair/meshes" TYPE DIRECTORY FILES "/home/meam/wheelchair_ws/src/wheel_chair/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wheel_chair/meshes" TYPE DIRECTORY FILES "/home/umut/wheelchair_ws/src/wheelchair_urdf/meshes/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wheel_chair/urdf" TYPE DIRECTORY FILES "/home/meam/wheelchair_ws/src/wheel_chair/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wheel_chair/urdf" TYPE DIRECTORY FILES "/home/umut/wheelchair_ws/src/wheelchair_urdf/urdf/")
 endif()
 

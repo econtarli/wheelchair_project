@@ -1,4 +1,4 @@
-prefix=/home/meam/wheelchair_ws/devel
+prefix=/home/umut/wheelchair_ws/devel
 
 Name: rplidar_ros
 Description: Description of rplidar_ros

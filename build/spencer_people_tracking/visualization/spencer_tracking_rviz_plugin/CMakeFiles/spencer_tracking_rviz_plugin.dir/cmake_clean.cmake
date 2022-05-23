@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/libspencer_tracking_rviz_plugin.pdb"
-  "/home/meam/wheelchair_ws/devel/lib/libspencer_tracking_rviz_plugin.so"
+  "/home/umut/wheelchair_ws/devel/lib/libspencer_tracking_rviz_plugin.pdb"
+  "/home/umut/wheelchair_ws/devel/lib/libspencer_tracking_rviz_plugin.so"
   "CMakeFiles/spencer_tracking_rviz_plugin.dir/src/detected_persons_display.cpp.o"
   "CMakeFiles/spencer_tracking_rviz_plugin.dir/src/human_attributes_display.cpp.o"
   "CMakeFiles/spencer_tracking_rviz_plugin.dir/src/moc_additional_topic_subscriber.cpp.o"

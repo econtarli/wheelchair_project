@@ -1,4 +1,4 @@
-prefix=/home/meam/wheelchair_ws/devel
+prefix=/home/umut/wheelchair_ws/devel
 
 Name: turtlebot3_description
 Description: Description of turtlebot3_description

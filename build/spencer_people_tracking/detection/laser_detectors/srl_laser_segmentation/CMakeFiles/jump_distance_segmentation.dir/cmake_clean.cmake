@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/srl_laser_segmentation/jump_distance_segmentation"
-  "/home/meam/wheelchair_ws/devel/lib/srl_laser_segmentation/jump_distance_segmentation.pdb"
+  "/home/umut/wheelchair_ws/devel/lib/srl_laser_segmentation/jump_distance_segmentation"
+  "/home/umut/wheelchair_ws/devel/lib/srl_laser_segmentation/jump_distance_segmentation.pdb"
   "CMakeFiles/jump_distance_segmentation.dir/src/srl_laser_segmentation/jump_distance.cpp.o"
   "CMakeFiles/jump_distance_segmentation.dir/src/srl_laser_segmentation/ros/nodes/jump_distance_segmentation.cpp.o"
   "CMakeFiles/jump_distance_segmentation.dir/src/srl_laser_segmentation/ros/ros_interface.cpp.o"

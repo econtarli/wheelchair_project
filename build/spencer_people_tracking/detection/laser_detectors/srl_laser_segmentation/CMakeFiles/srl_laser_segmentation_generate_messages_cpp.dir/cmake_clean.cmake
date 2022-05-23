@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/include/srl_laser_segmentation/BoolStamped.h"
-  "/home/meam/wheelchair_ws/devel/include/srl_laser_segmentation/LaserscanSegment.h"
-  "/home/meam/wheelchair_ws/devel/include/srl_laser_segmentation/LaserscanSegmentation.h"
+  "/home/umut/wheelchair_ws/devel/include/srl_laser_segmentation/BoolStamped.h"
+  "/home/umut/wheelchair_ws/devel/include/srl_laser_segmentation/LaserscanSegment.h"
+  "/home/umut/wheelchair_ws/devel/include/srl_laser_segmentation/LaserscanSegmentation.h"
   "CMakeFiles/srl_laser_segmentation_generate_messages_cpp"
 )
 

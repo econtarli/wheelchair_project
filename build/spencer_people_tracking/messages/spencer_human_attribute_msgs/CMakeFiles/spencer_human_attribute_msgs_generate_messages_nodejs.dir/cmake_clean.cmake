@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/spencer_human_attribute_msgs/msg/CategoricalAttribute.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/spencer_human_attribute_msgs/msg/HumanAttributes.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/spencer_human_attribute_msgs/msg/ScalarAttribute.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/spencer_human_attribute_msgs/msg/CategoricalAttribute.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/spencer_human_attribute_msgs/msg/HumanAttributes.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/spencer_human_attribute_msgs/msg/ScalarAttribute.js"
   "CMakeFiles/spencer_human_attribute_msgs_generate_messages_nodejs"
 )
 

@@ -1,4 +1,4 @@
-prefix=/home/meam/wheelchair_ws/install
+prefix=/home/umut/wheelchair_ws/install
 
 Name: spencer_social_relations
 Description: Description of spencer_social_relations

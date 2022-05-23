@@ -1,8 +1,8 @@
-# Install script for directory: /home/meam/wheelchair_ws/src/spencer_people_tracking/tracking/groups/spencer_group_tracking
+# Install script for directory: /home/umut/wheelchair_ws/src/spencer_people_tracking/tracking/groups/spencer_group_tracking
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/meam/wheelchair_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/umut/wheelchair_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/meam/wheelchair_ws/build/spencer_people_tracking/tracking/groups/spencer_group_tracking/catkin_generated/installspace/spencer_group_tracking.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/umut/wheelchair_ws/build/spencer_people_tracking/tracking/groups/spencer_group_tracking/catkin_generated/installspace/spencer_group_tracking.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_group_tracking/cmake" TYPE FILE FILES
-    "/home/meam/wheelchair_ws/build/spencer_people_tracking/tracking/groups/spencer_group_tracking/catkin_generated/installspace/spencer_group_trackingConfig.cmake"
-    "/home/meam/wheelchair_ws/build/spencer_people_tracking/tracking/groups/spencer_group_tracking/catkin_generated/installspace/spencer_group_trackingConfig-version.cmake"
+    "/home/umut/wheelchair_ws/build/spencer_people_tracking/tracking/groups/spencer_group_tracking/catkin_generated/installspace/spencer_group_trackingConfig.cmake"
+    "/home/umut/wheelchair_ws/build/spencer_people_tracking/tracking/groups/spencer_group_tracking/catkin_generated/installspace/spencer_group_trackingConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_group_tracking" TYPE FILE FILES "/home/meam/wheelchair_ws/src/spencer_people_tracking/tracking/groups/spencer_group_tracking/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_group_tracking" TYPE FILE FILES "/home/umut/wheelchair_ws/src/spencer_people_tracking/tracking/groups/spencer_group_tracking/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/spencer_group_tracking" TYPE PROGRAM FILES "/home/meam/wheelchair_ws/src/spencer_people_tracking/tracking/groups/spencer_group_tracking/scripts/tracked_groups.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/spencer_group_tracking" TYPE PROGRAM FILES "/home/umut/wheelchair_ws/src/spencer_people_tracking/tracking/groups/spencer_group_tracking/scripts/tracked_groups.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_group_tracking/launch" TYPE DIRECTORY FILES "/home/meam/wheelchair_ws/src/spencer_people_tracking/tracking/groups/spencer_group_tracking/launch/" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_group_tracking/launch" TYPE DIRECTORY FILES "/home/umut/wheelchair_ws/src/spencer_people_tracking/tracking/groups/spencer_group_tracking/launch/" REGEX "/\\.svn$" EXCLUDE)
 endif()
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/meam/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/src/spencer_diagnostics/status.cpp" "/home/meam/wheelchair_ws/build/spencer_people_tracking/utils/spencer_diagnostics/CMakeFiles/spencer_diagnostics.dir/src/spencer_diagnostics/status.cpp.o"
+  "/home/umut/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/src/spencer_diagnostics/status.cpp" "/home/umut/wheelchair_ws/build/spencer_people_tracking/utils/spencer_diagnostics/CMakeFiles/spencer_diagnostics.dir/src/spencer_diagnostics/status.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,10 +18,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/meam/wheelchair_ws/devel/include"
+  "/home/umut/wheelchair_ws/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/meam/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/include"
+  "/home/umut/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/include"
   )
 
 # Targets to which this target links.

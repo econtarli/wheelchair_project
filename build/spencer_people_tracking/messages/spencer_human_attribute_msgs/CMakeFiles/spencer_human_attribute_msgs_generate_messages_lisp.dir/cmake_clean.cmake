@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/share/common-lisp/ros/spencer_human_attribute_msgs/msg/CategoricalAttribute.lisp"
-  "/home/meam/wheelchair_ws/devel/share/common-lisp/ros/spencer_human_attribute_msgs/msg/HumanAttributes.lisp"
-  "/home/meam/wheelchair_ws/devel/share/common-lisp/ros/spencer_human_attribute_msgs/msg/ScalarAttribute.lisp"
+  "/home/umut/wheelchair_ws/devel/share/common-lisp/ros/spencer_human_attribute_msgs/msg/CategoricalAttribute.lisp"
+  "/home/umut/wheelchair_ws/devel/share/common-lisp/ros/spencer_human_attribute_msgs/msg/HumanAttributes.lisp"
+  "/home/umut/wheelchair_ws/devel/share/common-lisp/ros/spencer_human_attribute_msgs/msg/ScalarAttribute.lisp"
   "CMakeFiles/spencer_human_attribute_msgs_generate_messages_lisp"
 )
 

@@ -1,4 +1,4 @@
-prefix=/home/meam/wheelchair_ws/install
+prefix=/home/umut/wheelchair_ws/install
 
 Name: roboteq_diff_msgs
 Description: Description of roboteq_diff_msgs

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/wheelchair_navigation/wheelchair_node"
-  "/home/meam/wheelchair_ws/devel/lib/wheelchair_navigation/wheelchair_node.pdb"
+  "/home/umut/wheelchair_ws/devel/lib/wheelchair_navigation/wheelchair_node"
+  "/home/umut/wheelchair_ws/devel/lib/wheelchair_navigation/wheelchair_node.pdb"
   "CMakeFiles/wheelchair_node.dir/src/ChairNode.cpp.o"
   "CMakeFiles/wheelchair_node.dir/src/RoboteqDevice.cpp.o"
   "CMakeFiles/wheelchair_node.dir/src/RoboteqExtended.cpp.o"

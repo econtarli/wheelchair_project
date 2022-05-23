@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/share/common-lisp/ros/realsense2_camera/msg/Extrinsics.lisp"
-  "/home/meam/wheelchair_ws/devel/share/common-lisp/ros/realsense2_camera/msg/IMUInfo.lisp"
-  "/home/meam/wheelchair_ws/devel/share/common-lisp/ros/realsense2_camera/msg/Metadata.lisp"
-  "/home/meam/wheelchair_ws/devel/share/common-lisp/ros/realsense2_camera/srv/DeviceInfo.lisp"
+  "/home/umut/wheelchair_ws/devel/share/common-lisp/ros/realsense2_camera/msg/Extrinsics.lisp"
+  "/home/umut/wheelchair_ws/devel/share/common-lisp/ros/realsense2_camera/msg/IMUInfo.lisp"
+  "/home/umut/wheelchair_ws/devel/share/common-lisp/ros/realsense2_camera/msg/Metadata.lisp"
+  "/home/umut/wheelchair_ws/devel/share/common-lisp/ros/realsense2_camera/srv/DeviceInfo.lisp"
   "CMakeFiles/realsense2_camera_generate_messages_lisp"
 )
 
