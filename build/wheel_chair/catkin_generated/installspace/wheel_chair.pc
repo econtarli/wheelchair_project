@@ -1,0 +1,8 @@
+prefix=/home/meam/wheelchair_ws/install
+
+Name: wheel_chair
+Description: Description of wheel_chair
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
