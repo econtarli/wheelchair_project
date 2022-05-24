@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/rplidar_ros/rplidarNodeClient"
-  "/home/meam/wheelchair_ws/devel/lib/rplidar_ros/rplidarNodeClient.pdb"
+  "/home/umut/wheelchair_ws/devel/lib/rplidar_ros/rplidarNodeClient"
+  "/home/umut/wheelchair_ws/devel/lib/rplidar_ros/rplidarNodeClient.pdb"
   "CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
 )
 

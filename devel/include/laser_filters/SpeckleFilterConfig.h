@@ -412,9 +412,9 @@ SpeckleFilterConfig::GroupDescription<SpeckleFilterConfig::DEFAULT, SpeckleFilte
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __default__.filter_type = 0;
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(SpeckleFilterConfig::AbstractParamDescriptionConstPtr(new SpeckleFilterConfig::ParamDescription<int>("filter_type", "int", 0, "Filtering method selection", "{'enum': [{'name': 'Distance', 'type': 'int', 'value': 0, 'srcline': 45, 'srcfile': '/home/meam/wheelchair_ws/src/laser_filters/cfg/SpeckleFilter.cfg', 'description': 'Range based filtering (distance between consecutive points)', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'RadiusOutlier', 'type': 'int', 'value': 1, 'srcline': 46, 'srcfile': '/home/meam/wheelchair_ws/src/laser_filters/cfg/SpeckleFilter.cfg', 'description': 'Euclidean filtering based on radius outlier search', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'Enum to select the filtering method'}", &SpeckleFilterConfig::filter_type)));
+      Default.abstract_parameters.push_back(SpeckleFilterConfig::AbstractParamDescriptionConstPtr(new SpeckleFilterConfig::ParamDescription<int>("filter_type", "int", 0, "Filtering method selection", "{'enum': [{'name': 'Distance', 'type': 'int', 'value': 0, 'srcline': 45, 'srcfile': '/home/umut/wheelchair_ws/src/laser_filters/cfg/SpeckleFilter.cfg', 'description': 'Range based filtering (distance between consecutive points)', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'RadiusOutlier', 'type': 'int', 'value': 1, 'srcline': 46, 'srcfile': '/home/umut/wheelchair_ws/src/laser_filters/cfg/SpeckleFilter.cfg', 'description': 'Euclidean filtering based on radius outlier search', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'Enum to select the filtering method'}", &SpeckleFilterConfig::filter_type)));
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __param_descriptions__.push_back(SpeckleFilterConfig::AbstractParamDescriptionConstPtr(new SpeckleFilterConfig::ParamDescription<int>("filter_type", "int", 0, "Filtering method selection", "{'enum': [{'name': 'Distance', 'type': 'int', 'value': 0, 'srcline': 45, 'srcfile': '/home/meam/wheelchair_ws/src/laser_filters/cfg/SpeckleFilter.cfg', 'description': 'Range based filtering (distance between consecutive points)', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'RadiusOutlier', 'type': 'int', 'value': 1, 'srcline': 46, 'srcfile': '/home/meam/wheelchair_ws/src/laser_filters/cfg/SpeckleFilter.cfg', 'description': 'Euclidean filtering based on radius outlier search', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'Enum to select the filtering method'}", &SpeckleFilterConfig::filter_type)));
+      __param_descriptions__.push_back(SpeckleFilterConfig::AbstractParamDescriptionConstPtr(new SpeckleFilterConfig::ParamDescription<int>("filter_type", "int", 0, "Filtering method selection", "{'enum': [{'name': 'Distance', 'type': 'int', 'value': 0, 'srcline': 45, 'srcfile': '/home/umut/wheelchair_ws/src/laser_filters/cfg/SpeckleFilter.cfg', 'description': 'Range based filtering (distance between consecutive points)', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'RadiusOutlier', 'type': 'int', 'value': 1, 'srcline': 46, 'srcfile': '/home/umut/wheelchair_ws/src/laser_filters/cfg/SpeckleFilter.cfg', 'description': 'Euclidean filtering based on radius outlier search', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'Enum to select the filtering method'}", &SpeckleFilterConfig::filter_type)));
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __min__.max_range = 0.0;
 //#line 291 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
@@ -524,9 +524,9 @@ SpeckleFilterConfig::GroupDescription<SpeckleFilterConfig::DEFAULT, SpeckleFilte
     return statics;
   }
 
-//#line 45 "/home/meam/wheelchair_ws/src/laser_filters/cfg/SpeckleFilter.cfg"
+//#line 45 "/home/umut/wheelchair_ws/src/laser_filters/cfg/SpeckleFilter.cfg"
       const int SpeckleFilter_Distance = 0;
-//#line 46 "/home/meam/wheelchair_ws/src/laser_filters/cfg/SpeckleFilter.cfg"
+//#line 46 "/home/umut/wheelchair_ws/src/laser_filters/cfg/SpeckleFilter.cfg"
       const int SpeckleFilter_RadiusOutlier = 1;
 }
 

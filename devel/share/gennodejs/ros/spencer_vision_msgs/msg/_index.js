@@ -1,14 +1,14 @@
 
 "use strict";
 
-let PersonROIs = require('./PersonROIs.js');
 let PersonImage = require('./PersonImage.js');
-let PersonImages = require('./PersonImages.js');
 let PersonROI = require('./PersonROI.js');
+let PersonROIs = require('./PersonROIs.js');
+let PersonImages = require('./PersonImages.js');
 
 module.exports = {
-  PersonROIs: PersonROIs,
   PersonImage: PersonImage,
-  PersonImages: PersonImages,
   PersonROI: PersonROI,
+  PersonROIs: PersonROIs,
+  PersonImages: PersonImages,
 };

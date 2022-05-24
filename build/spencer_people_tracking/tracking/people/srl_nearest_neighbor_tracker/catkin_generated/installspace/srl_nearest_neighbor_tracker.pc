@@ -1,4 +1,4 @@
-prefix=/home/meam/wheelchair_ws/install
+prefix=/home/umut/wheelchair_ws/install
 
 Name: srl_nearest_neighbor_tracker
 Description: Description of srl_nearest_neighbor_tracker

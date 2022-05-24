@@ -1,8 +1,8 @@
-# Install script for directory: /home/meam/wheelchair_ws/src/realsense-ros/realsense2_description
+# Install script for directory: /home/umut/wheelchair_ws/src/realsense-ros/realsense2_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/meam/wheelchair_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/umut/wheelchair_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/meam/wheelchair_ws/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/umut/wheelchair_ws/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense2_description/cmake" TYPE FILE FILES
-    "/home/meam/wheelchair_ws/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig.cmake"
-    "/home/meam/wheelchair_ws/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig-version.cmake"
+    "/home/umut/wheelchair_ws/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig.cmake"
+    "/home/umut/wheelchair_ws/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense2_description" TYPE FILE FILES "/home/meam/wheelchair_ws/src/realsense-ros/realsense2_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense2_description" TYPE FILE FILES "/home/umut/wheelchair_ws/src/realsense-ros/realsense2_description/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense2_description" TYPE DIRECTORY FILES
-    "/home/meam/wheelchair_ws/src/realsense-ros/realsense2_description/launch"
-    "/home/meam/wheelchair_ws/src/realsense-ros/realsense2_description/meshes"
-    "/home/meam/wheelchair_ws/src/realsense-ros/realsense2_description/rviz"
-    "/home/meam/wheelchair_ws/src/realsense-ros/realsense2_description/urdf"
+    "/home/umut/wheelchair_ws/src/realsense-ros/realsense2_description/launch"
+    "/home/umut/wheelchair_ws/src/realsense-ros/realsense2_description/meshes"
+    "/home/umut/wheelchair_ws/src/realsense-ros/realsense2_description/rviz"
+    "/home/umut/wheelchair_ws/src/realsense-ros/realsense2_description/urdf"
     )
 endif()
 

@@ -1,4 +1,4 @@
-prefix=/home/meam/wheelchair_ws/install
+prefix=/home/umut/wheelchair_ws/install
 
 Name: realsense2_camera
 Description: Description of realsense2_camera

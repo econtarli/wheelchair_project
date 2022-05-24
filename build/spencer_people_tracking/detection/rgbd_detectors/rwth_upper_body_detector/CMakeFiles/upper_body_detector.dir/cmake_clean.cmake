@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/rwth_upper_body_detector/upper_body_detector"
-  "/home/meam/wheelchair_ws/devel/lib/rwth_upper_body_detector/upper_body_detector.pdb"
+  "/home/umut/wheelchair_ws/devel/lib/rwth_upper_body_detector/upper_body_detector"
+  "/home/umut/wheelchair_ws/devel/lib/rwth_upper_body_detector/upper_body_detector.pdb"
   "CMakeFiles/upper_body_detector.dir/src/AncillaryMethods.cpp.o"
   "CMakeFiles/upper_body_detector.dir/src/Camera.cpp.o"
   "CMakeFiles/upper_body_detector.dir/src/FrameInlier.cpp.o"

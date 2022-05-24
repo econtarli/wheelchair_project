@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/spencer_tracking_utils/tracks_to_detections"
-  "/home/meam/wheelchair_ws/devel/lib/spencer_tracking_utils/tracks_to_detections.pdb"
+  "/home/umut/wheelchair_ws/devel/lib/spencer_tracking_utils/tracks_to_detections"
+  "/home/umut/wheelchair_ws/devel/lib/spencer_tracking_utils/tracks_to_detections.pdb"
   "CMakeFiles/tracks_to_detections.dir/src/spencer_tracking_utils/tracks_to_detections.cpp.o"
 )
 

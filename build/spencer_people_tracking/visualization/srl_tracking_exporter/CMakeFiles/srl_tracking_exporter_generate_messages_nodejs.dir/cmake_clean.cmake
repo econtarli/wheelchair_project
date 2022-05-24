@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/srl_tracking_exporter/srv/JobFinished.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/srl_tracking_exporter/srv/JobFinished.js"
   "CMakeFiles/srl_tracking_exporter_generate_messages_nodejs"
 )
 

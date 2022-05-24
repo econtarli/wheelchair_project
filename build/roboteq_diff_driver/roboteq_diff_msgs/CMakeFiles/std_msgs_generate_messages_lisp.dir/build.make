@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/meam/wheelchair_ws/src
+CMAKE_SOURCE_DIR = /home/umut/wheelchair_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/meam/wheelchair_ws/build
+CMAKE_BINARY_DIR = /home/umut/wheelchair_ws/build
 
 # Utility rule file for std_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ roboteq_diff_driver/roboteq_diff_msgs/CMakeFiles/std_msgs_generate_messages_lisp
 .PHONY : roboteq_diff_driver/roboteq_diff_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 
 roboteq_diff_driver/roboteq_diff_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	cd /home/meam/wheelchair_ws/build/roboteq_diff_driver/roboteq_diff_msgs && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/umut/wheelchair_ws/build/roboteq_diff_driver/roboteq_diff_msgs && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : roboteq_diff_driver/roboteq_diff_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 roboteq_diff_driver/roboteq_diff_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend:
-	cd /home/meam/wheelchair_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/meam/wheelchair_ws/src /home/meam/wheelchair_ws/src/roboteq_diff_driver/roboteq_diff_msgs /home/meam/wheelchair_ws/build /home/meam/wheelchair_ws/build/roboteq_diff_driver/roboteq_diff_msgs /home/meam/wheelchair_ws/build/roboteq_diff_driver/roboteq_diff_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/umut/wheelchair_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/umut/wheelchair_ws/src /home/umut/wheelchair_ws/src/roboteq_diff_driver/roboteq_diff_msgs /home/umut/wheelchair_ws/build /home/umut/wheelchair_ws/build/roboteq_diff_driver/roboteq_diff_msgs /home/umut/wheelchair_ws/build/roboteq_diff_driver/roboteq_diff_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : roboteq_diff_driver/roboteq_diff_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 

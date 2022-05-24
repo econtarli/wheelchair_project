@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/meam/wheelchair_ws/src/rplidar_ros/src/client.cpp
+/home/umut/wheelchair_ws/src/rplidar_ros/src/client.cpp
 ros/ros.h
-/home/meam/wheelchair_ws/src/rplidar_ros/src/ros/ros.h
+/home/umut/wheelchair_ws/src/rplidar_ros/src/ros/ros.h
 sensor_msgs/LaserScan.h
-/home/meam/wheelchair_ws/src/rplidar_ros/src/sensor_msgs/LaserScan.h
+/home/umut/wheelchair_ws/src/rplidar_ros/src/sensor_msgs/LaserScan.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

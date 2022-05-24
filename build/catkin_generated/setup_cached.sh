@@ -7,8 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH='/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'
-export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'
-export PWD='/home/meam/wheelchair_ws/build'
-export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'
-export ROS_PACKAGE_PATH='/home/meam/wheelchair_ws/src:/opt/ros/noetic/share'
+export CMAKE_PREFIX_PATH="/home/umut/wheelchair_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/umut/wheelchair_ws/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/umut/wheelchair_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/umut/wheelchair_ws/src:$ROS_PACKAGE_PATH"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/libtrack_annotation_tool_rviz_plugin.pdb"
-  "/home/meam/wheelchair_ws/devel/lib/libtrack_annotation_tool_rviz_plugin.so"
+  "/home/umut/wheelchair_ws/devel/lib/libtrack_annotation_tool_rviz_plugin.pdb"
+  "/home/umut/wheelchair_ws/devel/lib/libtrack_annotation_tool_rviz_plugin.so"
   "CMakeFiles/track_annotation_tool_rviz_plugin.dir/src/rviz_plugin/delete_waypoint_tool.cpp.o"
   "CMakeFiles/track_annotation_tool_rviz_plugin.dir/src/rviz_plugin/moc_delete_waypoint_tool.cpp.o"
   "CMakeFiles/track_annotation_tool_rviz_plugin.dir/src/rviz_plugin/moc_place_waypoint_tool.cpp.o"

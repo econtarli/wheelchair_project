@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/python3/dist-packages/realsense2_camera/msg/_Extrinsics.py"
-  "/home/meam/wheelchair_ws/devel/lib/python3/dist-packages/realsense2_camera/msg/_IMUInfo.py"
-  "/home/meam/wheelchair_ws/devel/lib/python3/dist-packages/realsense2_camera/msg/_Metadata.py"
-  "/home/meam/wheelchair_ws/devel/lib/python3/dist-packages/realsense2_camera/msg/__init__.py"
-  "/home/meam/wheelchair_ws/devel/lib/python3/dist-packages/realsense2_camera/srv/_DeviceInfo.py"
-  "/home/meam/wheelchair_ws/devel/lib/python3/dist-packages/realsense2_camera/srv/__init__.py"
+  "/home/umut/wheelchair_ws/devel/lib/python3/dist-packages/realsense2_camera/msg/_Extrinsics.py"
+  "/home/umut/wheelchair_ws/devel/lib/python3/dist-packages/realsense2_camera/msg/_IMUInfo.py"
+  "/home/umut/wheelchair_ws/devel/lib/python3/dist-packages/realsense2_camera/msg/_Metadata.py"
+  "/home/umut/wheelchair_ws/devel/lib/python3/dist-packages/realsense2_camera/msg/__init__.py"
+  "/home/umut/wheelchair_ws/devel/lib/python3/dist-packages/realsense2_camera/srv/_DeviceInfo.py"
+  "/home/umut/wheelchair_ws/devel/lib/python3/dist-packages/realsense2_camera/srv/__init__.py"
   "CMakeFiles/realsense2_camera_generate_messages_py"
 )
 

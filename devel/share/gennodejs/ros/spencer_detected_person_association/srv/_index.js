@@ -1,10 +1,10 @@
 
 "use strict";
 
-let LookupTrackId = require('./LookupTrackId.js')
 let LookupTrackIds = require('./LookupTrackIds.js')
+let LookupTrackId = require('./LookupTrackId.js')
 
 module.exports = {
-  LookupTrackId: LookupTrackId,
   LookupTrackIds: LookupTrackIds,
+  LookupTrackId: LookupTrackId,
 };

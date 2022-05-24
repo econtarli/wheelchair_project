@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/include/srl_tracking_exporter/JobFinished.h"
+  "/home/umut/wheelchair_ws/devel/include/srl_tracking_exporter/JobFinished.h"
   "CMakeFiles/srl_tracking_exporter_generate_messages_cpp"
 )
 

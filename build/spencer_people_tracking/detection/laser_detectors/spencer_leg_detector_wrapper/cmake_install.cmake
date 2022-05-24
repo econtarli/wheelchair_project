@@ -1,8 +1,8 @@
-# Install script for directory: /home/meam/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/spencer_leg_detector_wrapper
+# Install script for directory: /home/umut/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/spencer_leg_detector_wrapper
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/meam/wheelchair_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/umut/wheelchair_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/launch" TYPE DIRECTORY FILES "/home/meam/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/spencer_leg_detector_wrapper/launch/" REGEX "/\\.svn$" EXCLUDE)
+file(INSTALL DESTINATION "/launch" TYPE DIRECTORY FILES "/home/umut/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/spencer_leg_detector_wrapper/launch/" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -58,6 +58,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/configs" TYPE DIRECTORY FILES "/home/meam/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/spencer_leg_detector_wrapper/configs/" REGEX "/\\.svn$" EXCLUDE)
+file(INSTALL DESTINATION "/configs" TYPE DIRECTORY FILES "/home/umut/wheelchair_ws/src/spencer_people_tracking/detection/laser_detectors/spencer_leg_detector_wrapper/configs/" REGEX "/\\.svn$" EXCLUDE)
 endif()
 

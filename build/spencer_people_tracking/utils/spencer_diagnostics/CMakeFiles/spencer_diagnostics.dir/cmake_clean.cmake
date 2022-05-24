@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/libspencer_diagnostics.pdb"
-  "/home/meam/wheelchair_ws/devel/lib/libspencer_diagnostics.so"
+  "/home/umut/wheelchair_ws/devel/lib/libspencer_diagnostics.pdb"
+  "/home/umut/wheelchair_ws/devel/lib/libspencer_diagnostics.so"
   "CMakeFiles/spencer_diagnostics.dir/src/spencer_diagnostics/status.cpp.o"
 )
 

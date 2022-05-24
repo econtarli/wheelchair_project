@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/share/common-lisp/ros/spencer_detected_person_association/srv/LookupTrackId.lisp"
-  "/home/meam/wheelchair_ws/devel/share/common-lisp/ros/spencer_detected_person_association/srv/LookupTrackIds.lisp"
+  "/home/umut/wheelchair_ws/devel/share/common-lisp/ros/spencer_detected_person_association/srv/LookupTrackId.lisp"
+  "/home/umut/wheelchair_ws/devel/share/common-lisp/ros/spencer_detected_person_association/srv/LookupTrackIds.lisp"
   "CMakeFiles/spencer_detected_person_association_generate_messages_lisp"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/spencer_social_relations/spatial_relations"
-  "/home/meam/wheelchair_ws/devel/lib/spencer_social_relations/spatial_relations.pdb"
+  "/home/umut/wheelchair_ws/devel/lib/spencer_social_relations/spatial_relations"
+  "/home/umut/wheelchair_ws/devel/lib/spencer_social_relations/spatial_relations.pdb"
   "CMakeFiles/spatial_relations.dir/src/spencer_social_relations/spatial_relations.cpp.o"
 )
 

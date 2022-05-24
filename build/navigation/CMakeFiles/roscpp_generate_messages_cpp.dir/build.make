@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/meam/wheelchair_ws/src
+CMAKE_SOURCE_DIR = /home/umut/wheelchair_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/meam/wheelchair_ws/build
+CMAKE_BINARY_DIR = /home/umut/wheelchair_ws/build
 
 # Utility rule file for roscpp_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ navigation/CMakeFiles/roscpp_generate_messages_cpp.dir/build: roscpp_generate_me
 .PHONY : navigation/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 
 navigation/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	cd /home/meam/wheelchair_ws/build/navigation && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/umut/wheelchair_ws/build/navigation && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : navigation/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 navigation/CMakeFiles/roscpp_generate_messages_cpp.dir/depend:
-	cd /home/meam/wheelchair_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/meam/wheelchair_ws/src /home/meam/wheelchair_ws/src/navigation /home/meam/wheelchair_ws/build /home/meam/wheelchair_ws/build/navigation /home/meam/wheelchair_ws/build/navigation/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/umut/wheelchair_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/umut/wheelchair_ws/src /home/umut/wheelchair_ws/src/navigation /home/umut/wheelchair_ws/build /home/umut/wheelchair_ws/build/navigation /home/umut/wheelchair_ws/build/navigation/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : navigation/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 

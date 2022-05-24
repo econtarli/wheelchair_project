@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/meam/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/include/spencer_diagnostics/status.h
+/home/umut/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/include/spencer_diagnostics/status.h
 diagnostic_msgs/DiagnosticArray.h
 -
 diagnostic_updater/DiagnosticStatusWrapper.h
@@ -16,7 +16,7 @@ boost/shared_ptr.hpp
 boost/asio/ip/host_name.hpp
 -
 
-/home/meam/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/src/spencer_diagnostics/status.cpp
+/home/umut/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/src/spencer_diagnostics/status.cpp
 spencer_diagnostics/status.h
 -
 

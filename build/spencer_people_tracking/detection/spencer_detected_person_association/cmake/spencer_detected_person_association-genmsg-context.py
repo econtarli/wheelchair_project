@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/meam/wheelchair_ws/src/spencer_people_tracking/detection/spencer_detected_person_association/srv/LookupTrackId.srv;/home/meam/wheelchair_ws/src/spencer_people_tracking/detection/spencer_detected_person_association/srv/LookupTrackIds.srv"
+services_str = "/home/umut/wheelchair_ws/src/spencer_people_tracking/detection/spencer_detected_person_association/srv/LookupTrackId.srv;/home/umut/wheelchair_ws/src/spencer_people_tracking/detection/spencer_detected_person_association/srv/LookupTrackIds.srv"
 pkg_name = "spencer_detected_person_association"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

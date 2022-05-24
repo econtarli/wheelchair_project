@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/realsense2_camera/msg/Extrinsics.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/realsense2_camera/msg/IMUInfo.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/realsense2_camera/msg/Metadata.js"
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/realsense2_camera/srv/DeviceInfo.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/realsense2_camera/msg/Extrinsics.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/realsense2_camera/msg/IMUInfo.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/realsense2_camera/msg/Metadata.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/realsense2_camera/srv/DeviceInfo.js"
   "CMakeFiles/realsense2_camera_generate_messages_nodejs"
 )
 

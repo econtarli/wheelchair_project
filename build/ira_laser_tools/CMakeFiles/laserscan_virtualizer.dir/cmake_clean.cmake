@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/lib/ira_laser_tools/laserscan_virtualizer"
-  "/home/meam/wheelchair_ws/devel/lib/ira_laser_tools/laserscan_virtualizer.pdb"
+  "/home/umut/wheelchair_ws/devel/lib/ira_laser_tools/laserscan_virtualizer"
+  "/home/umut/wheelchair_ws/devel/lib/ira_laser_tools/laserscan_virtualizer.pdb"
   "CMakeFiles/laserscan_virtualizer.dir/src/laserscan_virtualizer.cpp.o"
 )
 

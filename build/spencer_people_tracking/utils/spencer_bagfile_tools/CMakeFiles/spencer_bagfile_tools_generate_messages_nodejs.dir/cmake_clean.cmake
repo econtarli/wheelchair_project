@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/meam/wheelchair_ws/devel/share/gennodejs/ros/spencer_bagfile_tools/msg/AdditionalOdometryData.js"
+  "/home/umut/wheelchair_ws/devel/share/gennodejs/ros/spencer_bagfile_tools/msg/AdditionalOdometryData.js"
   "CMakeFiles/spencer_bagfile_tools_generate_messages_nodejs"
 )
 

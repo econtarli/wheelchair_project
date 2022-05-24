@@ -67,14 +67,14 @@ set(wheelchair_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(wheelchair_SOURCE_PREFIX /home/meam/wheelchair_ws/src/wheelchair)
-  set(wheelchair_DEVEL_PREFIX /home/meam/wheelchair_ws/devel)
+  set(wheelchair_SOURCE_PREFIX /home/umut/wheelchair_ws/src/wheelchair)
+  set(wheelchair_DEVEL_PREFIX /home/umut/wheelchair_ws/devel)
   set(wheelchair_INSTALL_PREFIX "")
   set(wheelchair_PREFIX ${wheelchair_DEVEL_PREFIX})
 else()
   set(wheelchair_SOURCE_PREFIX "")
   set(wheelchair_DEVEL_PREFIX "")
-  set(wheelchair_INSTALL_PREFIX /home/meam/wheelchair_ws/install)
+  set(wheelchair_INSTALL_PREFIX /home/umut/wheelchair_ws/install)
   set(wheelchair_PREFIX ${wheelchair_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/meam/wheelchair_ws/install/lib;/home/meam/wheelchair_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/umut/wheelchair_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

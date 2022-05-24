@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/meam/wheelchair_ws/src/spencer_people_tracking/visualization/srl_tracking_exporter/srv/JobFinished.srv"
+services_str = "/home/umut/wheelchair_ws/src/spencer_people_tracking/visualization/srl_tracking_exporter/srv/JobFinished.srv"
 pkg_name = "srl_tracking_exporter"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"
