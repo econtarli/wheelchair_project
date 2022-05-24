@@ -273,7 +273,7 @@
       velocity="0" />
   </joint>
   <link
-    name="back_lidar">
+    name="rp_laser_back">
     <inertial>
       <origin
         xyz="-0.00393393719392465 1.45541326387055E-05 -0.00550433759472346"
@@ -294,7 +294,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://wheel_chair/meshes/back_lidar.STL" />
+          filename="package://wheel_chair/meshes/rp_laser_back.STL" />
       </geometry>
       <material
         name="">
@@ -308,12 +308,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://wheel_chair/meshes/back_lidar.STL" />
+          filename="package://wheel_chair/meshes/rp_laser_back.STL" />
       </geometry>
     </collision>
   </link>
   <joint
-    name="back_lidar_joint"
+    name="rp_laser_back_joint"
     type="fixed">
     <origin
       xyz="-0.36833 0.305 0.25299"
@@ -321,12 +321,12 @@
     <parent
       link="base_link" />
     <child
-      link="back_lidar" />
+      link="rp_laser_back" />
     <axis
       xyz="0 0 0" />
   </joint>
   <link
-    name="front_lidar">
+    name="rp_laser_front">
     <inertial>
       <origin
         xyz="0.00417274073163831 7.93864644071385E-05 -0.00532501160387389"
@@ -347,7 +347,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://wheel_chair/meshes/front_lidar.STL" />
+          filename="package://wheel_chair/meshes/rp_laser_front.STL" />
       </geometry>
       <material
         name="">
@@ -361,12 +361,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://wheel_chair/meshes/front_lidar.STL" />
+          filename="package://wheel_chair/meshes/rp_laser_front.STL" />
       </geometry>
     </collision>
   </link>
   <joint
-    name="front_lidar_joint"
+    name="rp_laser_front_joint"
     type="fixed">
     <origin
       xyz="0.4012 -3.7661E-05 -0.092559"
@@ -374,7 +374,7 @@
     <parent
       link="base_link" />
     <child
-      link="front_lidar" />
+      link="rp_laser_front" />
     <axis
       xyz="0 0 0" />
   </joint>
