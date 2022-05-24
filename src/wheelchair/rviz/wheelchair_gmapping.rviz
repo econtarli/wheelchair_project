@@ -5,7 +5,6 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /RobotModel1
-        - /RobotModel1/Status1
         - /TF1/Frames1
         - /LaserScan1
         - /Map1
@@ -134,7 +133,7 @@ Visualization Manager:
       Axis: Z
       Channel Name: intensity
       Class: rviz/LaserScan
-      Color: 239; 41; 41
+      Color: 255; 0; 0
       Color Transformer: FlatColor
       Decay Time: 0
       Enabled: true
@@ -146,9 +145,9 @@ Visualization Manager:
       Queue Size: 10
       Selectable: true
       Size (Pixels): 3
-      Size (m): 0.030000001192092896
+      Size (m): 0.07000000029802322
       Style: Flat Squares
-      Topic: /front_rp/rp_scan_filtered_front
+      Topic: /scan_multi
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true

@@ -1,550 +1,439 @@
-<?xml version="1.0"?>
-<robot name="wheelchair">
-
-    <link name="base_footprint" />
-
-    <joint name="base_joint" type="fixed">
-        <axis xyz="0 0 0" />
-        <parent link="base_footprint" />
-        <child link="base_link" />
-        <origin xyz="0 0 0.0102" rpy="0 0 1.5708" />
-    </joint>
-
-    <link name="base_link">
-        <visual>
-            <geometry>
-                <box size="0.5 0.57 0.43" />
-            </geometry>
-            <material name="silver">
-                <color rgba="0.8 0.8 0.8 1" />
-            </material>
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.5 0.57 0.43" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-
-
-    <link name="block2_seat">
-        <visual>
-            <geometry>
-                <box size="0.5 0.22 0.1" />
-            </geometry>
-            <material name="silver" />
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.5 0.22 0.1" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-
-    <joint name="block2_joint" type="fixed">
-        <axis xyz="0 0 0" />
-        <parent link="base_link" />
-        <child link="block2_seat" />
-        <origin rpy="0 0 0" xyz="0 -0.175 0.265" />
-    </joint>
-
-
-    <link name="block3_seat">
-        <visual>
-            <geometry>
-                <box size="0.5 0.26 0.3" />
-            </geometry>
-            <material name="silver" />
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.5 0.26 0.3" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-    <joint name="block3_joint" type="fixed">
-        <axis xyz="0 0 0" />
-        <parent link="base_link" />
-        <child link="block3_seat" />
-        <origin rpy="0 0 0" xyz="0 -0.415 0.165" />
-    </joint>
-
-
-    <link name="soft_seat">
-        <visual>
-            <geometry>
-                <box size="0.5 0.48 0.03" />
-            </geometry>
-            <material name="silver" />
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.5 0.48 0.03" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-
-    <joint name="soft_joint" type="fixed">
-        <axis xyz="0 0 0" />
-        <parent link="base_link" />
-        <child link="soft_seat" />
-        <origin rpy="0 0 0" xyz="0 -0.305 0.33" />
-    </joint>
-
-
-    <link name="back_seat">
-        <visual>
-            <geometry>
-                <box size="0.5 0.02 0.310" />
-            </geometry>
-            <material name="silver" />
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.5 0.02 0.310" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-    <joint name="back_seat_joint" type="fixed">
-        <axis xyz="1 0 0" />
-        <parent link="base_link" />
-        <child link="back_seat" />
-        <origin rpy="0 0 0" xyz="0 -0.065 0.5" />
-    </joint>
-
-
-    <link name="back_pole">
-        <visual>
-            <geometry>
-                <box size="0.05 0.02 1.455" />
-            </geometry>
-            <material name="silver" />
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.5 0.02 0.310" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-
-    <joint name="back_pole_joint" type="fixed">
-        <axis xyz="1 0 0" />
-        <parent link="base_link" />
-        <child link="back_pole" />
-        <origin rpy="0 0 0" xyz="0 -0.065 0.7225" />
-    </joint>
-
-    <link name="rs_lidar_link">
-        <visual>
-            <geometry>
-                <box size="0.05 0.02 0.05" />
-            </geometry>
-            <material name="blue">
-                <color rgba="0 0 1 1" />
-            </material>
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.5 0.02 0.310" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-
-    <joint name="camera_link_joint" type="fixed">
-        <axis xyz="1 0 0" />
-        <parent link="back_pole" />
-        <child link="rs_lidar_link" />
-        <origin rpy="0 0.07 -1.5708" xyz="0 0 0.7225" />
-    </joint>
-
-
-    <link name="side_seat">
-        <visual>
-            <geometry>
-                <box size="0.06 0.36 0.18" />
-            </geometry>
-            <material name="silver" />
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.06 0.36 0.18" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-    <joint name="side_seat_joint" type="fixed">
-        <axis xyz="1 0 0" />
-        <parent link="base_link" />
-        <child link="side_seat" />
-        <origin rpy="0 0 0" xyz="0.25 -0.245 0.435" />
-    </joint>
-
-
-    <link name="side_seat_2">
-        <visual>
-            <geometry>
-                <box size="0.06 0.36 0.18" />
-            </geometry>
-            <material name="silver" />
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.06 0.36 0.18" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-    <joint name="side_seat_2_joint" type="fixed">
-        <axis xyz="1 0 0" />
-        <parent link="base_link" />
-        <child link="side_seat_2" />
-        <origin rpy="0 0 0" xyz="-0.25 -0.245 0.435" />
-    </joint>
-
-
-    <link name="front_pole_right">
-        <visual>
-            <geometry>
-                <box size="0.01 0.18 0.01" />
-            </geometry>
-            <material name="silver" />
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.01 0.18 0.01" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-    <joint name="front_pole_right_joint" type="fixed">
-        <axis xyz="1 0 0" />
-        <parent link="block3_seat" />
-        <child link="front_pole_right" />
-        <origin rpy="0 0 0" xyz="-0.25 -0.22 -0.12" />
-    </joint>
-
-
-    <link name="front_pole_left">
-        <visual>
-            <geometry>
-                <box size="0.01 0.18 0.01" />
-            </geometry>
-            <material name="silver" />
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.01 0.18 0.01" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-
-    <joint name="front_pole_left_joint" type="fixed">
-        <axis xyz="1 0 0" />
-        <parent link="block3_seat" />
-        <child link="front_pole_left" />
-        <origin rpy="0 0 0" xyz="0.25 -0.22 -0.12" />
-    </joint>
-
-
-    <link name="lidar_panel">
-        <visual>
-            <geometry>
-                <box size="0.5 0.07 0.04" />
-            </geometry>
-            <material name="silver" />
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.5 0.07 0.04" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-    <joint name="lidar_panel_joint" type="fixed">
-        <axis xyz="1 0 0" />
-        <parent link="block3_seat" />
-        <child link="lidar_panel" />
-        <origin rpy="0 0 0" xyz="0 -0.22 -0.12" />
-    </joint>
-
-    <link name="laser">
-        <visual>
-            <geometry>
-                <box size="0.1 0.1 0.25" />
-            </geometry>
-            <material name="red">
-                <color rgba="1 0 0 1" />
-            </material>
-        </visual>
-
-        <inertial>
-            <mass value="0.1" />
-            <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-        <collision>
-            <geometry>
-                <box size="0.1 0.1 0.25" />
-            </geometry>
-        </collision>
-    </link>
-    <joint name="laser_joint" type="fixed">
-        <axis xyz="0 0 0" />
-        <parent link="lidar_panel" />
-        <child link="laser" />
-        <origin rpy="0 0 -1.5708" xyz="0 -0.05 -0.145" />
-    </joint>
-
-
-    <link name="rp_laser_front">
-        <visual>
-            <geometry>
-                <box size="0.1 0.1 0.25" />
-            </geometry>
-            <material name="red">
-                <color rgba="1 0 0 1" />
-            </material>
-        </visual>
-
-        <inertial>
-            <mass value="0.1" />
-            <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-        <collision>
-            <geometry>
-                <box size="0.1 0.1 0.25" />
-            </geometry>
-        </collision>
-    </link>
-    <joint name="rp_laser_front_joint" type="fixed">
-        <axis xyz="0 0 0" />
-        <parent link="lidar_panel" />
-        <child link="rp_laser_front" />
-        <origin rpy="0 0 -1.57" xyz="0 -0.125 -0.245" />
-    </joint>
-
-    <link name="rp_laser_back">
-        <visual>
-            <geometry>
-                <box size="0.05 0.08 0.03" />
-            </geometry>
-            <material name="red">
-                <color rgba="1 0 0 1" />
-            </material>
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.05 0.08 0.03" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-
-    <joint name="rp_laser_back_joint" type="fixed">
-        <axis xyz="0 0 0" />
-        <parent link="base_link" />
-        <child link="rp_laser_back" />
-        <origin rpy="0 0 0" xyz="0.245 0.086 0.325" />
-    </joint>
-
-
-    <link name="front_caster_right">
-        <visual>
-            <geometry>
-                <box size="0.11 0.27 0.27" />
-            </geometry>
-            <material name="silver" />
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.11 0.27 0.27" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-    <joint name="front_caster_right_joint" type="continuous">
-        <axis xyz="0 0 1" />
-        <parent link="block3_seat" />
-        <child link="front_caster_right" />
-        <origin rpy="0 0 0" xyz="-0.265 -0.13 -0.285" />
-    </joint>
-
-
-    <link name="front_caster_left">
-        <visual>
-            <geometry>
-                <box size="0.11 0.27 0.27" />
-            </geometry>
-            <material name="silver" />
-        </visual>
-        <collision>
-            <geometry>
-                <box size="0.11 0.27 0.27" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="1.0" />
-            <inertia ixx="0.015" iyy="0.0375" izz="0.0375" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-    <joint name="front_caster_left_joint" type="continuous">
-        <axis xyz="0 0 1" />
-        <parent link="block3_seat" />
-        <child link="front_caster_left" />
-        <origin rpy="0 0 0" xyz="0.265 -0.13 -0.285" />
-    </joint>
-
-
-    <link name="front_wheel_left">
-        <visual>
-            <geometry>
-                <cylinder length="0.09" radius="0.140" />
-            </geometry>
-            <material name="black" />
-        </visual>
-
-        <inertial>
-            <mass value="0.1" />
-            <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-        <collision>
-            <geometry>
-                <cylinder length="0.09" radius="0.140" />
-            </geometry>
-        </collision>
-    </link>
-    <joint name="front_wheel_left_joint" type="continuous">
-        <axis xyz="0 0 1" />
-        <parent link="front_caster_left" />
-        <child link="front_wheel_left" />
-        <origin rpy="-1.5708 0 1.5708" xyz="0 -0.13 0" />
-    </joint>
-
-
-    <link name="front_wheel_right">
-        <visual>
-            <geometry>
-                <cylinder length="0.09" radius="0.140" />
-            </geometry>
-            <material name="black" />
-        </visual>
-        <collision>
-            <geometry>
-                <cylinder length="0.09" radius="0.140" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="0.1" />
-            <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-    <joint name="front_wheel_right_joint" type="continuous">
-        <axis xyz="0 0 1" />
-        <parent link="front_caster_right" />
-        <child link="front_wheel_right" />
-        <origin rpy="-1.5708 0 1.5708" xyz="0 -0.13 0" />
-    </joint>
-
-
-    <link name="right_rear_wheel">
-        <visual>
-            <geometry>
-                <cylinder length="0.09" radius="0.225" />
-            </geometry>
-            <material name="black">
-                <color rgba="0 0 0 1" />
-            </material>
-        </visual>
-        <collision>
-            <geometry>
-                <cylinder length="0.09" radius="0.225" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="0.1" />
-            <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-    <joint name="right_rear_wheel_joint" type="continuous">
-        <axis xyz="0 0 -1" />
-        <parent link="base_link" />
-        <child link="right_rear_wheel" />
-        <origin rpy="-1.5708 0 1.5708" xyz="-0.295 0 -0.03" />
-    </joint>
-
-
-    <link name="left_rear_wheel">
-        <visual>
-            <geometry>
-                <cylinder length="0.09" radius="0.225" />
-            </geometry>
-            <material name="black" />
-        </visual>
-        <collision>
-            <geometry>
-                <cylinder length="0.09" radius="0.225" />
-            </geometry>
-        </collision>
-        <inertial>
-            <mass value="0.1" />
-            <inertia ixx="5.1458e-5" iyy="5.1458e-5" izz="6.125e-5" ixy="0" ixz="0" iyz="0" />
-        </inertial>
-    </link>
-    <joint name="left_rear_wheel_joint" type="continuous">
-        <axis xyz="0 0 -1" />
-        <parent link="base_link" />
-        <child link="left_rear_wheel" />
-        <origin rpy="-1.5708 0 1.5708" xyz="0.295 0 -0.03" />
-    </joint>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="wheel_chair">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0600471604819967 0.00439213544760461 0.221474470099281"
+        rpy="0 0 0" />
+      <mass
+        value="100.569950446923" />
+      <inertia
+        ixx="4.48301901861672"
+        ixy="0.0349855645708372"
+        ixz="1.28165662218941"
+        iyy="7.27876793727071"
+        iyz="0.0398564867859076"
+        izz="3.9606066424214" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="left_big_wheel">
+    <inertial>
+      <origin
+        xyz="1.11022302462516E-16 -0.0275 1.0547118733939E-15"
+        rpy="0 0 0" />
+      <mass
+        value="3.19005851775017" />
+      <inertia
+        ixx="0.0222055020892376"
+        ixy="2.51803084243033E-19"
+        ixz="-2.81676763764174E-17"
+        iyy="0.0429444812918596"
+        iyz="-1.55599135569761E-19"
+        izz="0.0222055020892377" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/left_big_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/left_big_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_big_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="-0.32005 0.315 -0.008"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_big_wheel" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      effort="1"
+      velocity="1" />
+  </joint>
+  <link
+    name="right_big_wheel">
+    <inertial>
+      <origin
+        xyz="-8.32667268468867E-17 0.0275 9.99200722162641E-16"
+        rpy="0 0 0" />
+      <mass
+        value="3.19005851775017" />
+      <inertia
+        ixx="0.0222055020892377"
+        ixy="-1.13575517018704E-19"
+        ixz="-3.09327695242051E-17"
+        iyy="0.0429444812918597"
+        iyz="2.10016504636252E-19"
+        izz="0.0222055020892377" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/right_big_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/right_big_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_big_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="-0.32005 -0.315 -0.008"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_big_wheel" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      effort="1"
+      velocity="1" />
+  </joint>
+  <link
+    name="left_small_wheel">
+    <inertial>
+      <origin
+        xyz="5.55111512312578E-17 -0.0400000000000001 2.77555756156289E-16"
+        rpy="0 0 0" />
+      <mass
+        value="1.31881639542862" />
+      <inertia
+        ixx="0.00307756206748821"
+        ixy="-7.66247179909921E-19"
+        ixz="-1.74672358005914E-19"
+        iyy="0.00569232821091255"
+        iyz="-5.06507769485301E-19"
+        izz="0.00307756206748821" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/left_small_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/left_small_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_small_wheel_joint"
+    type="revolute">
+    <origin
+      xyz="0.31993 0.2835 -0.073"
+      rpy="0 0 0.00055161" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_small_wheel" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="right_smaal_wheel">
+    <inertial>
+      <origin
+        xyz="0.000174507822597092 0.0399996193359368 0"
+        rpy="0 0 0" />
+      <mass
+        value="1.31881639542862" />
+      <inertia
+        ixx="0.00307761183462662"
+        ixy="1.14073200972812E-05"
+        ixz="-2.08848241268008E-19"
+        iyy="0.00569227844377414"
+        iyz="1.53998924281543E-19"
+        izz="0.00307756206748821" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/right_smaal_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/right_smaal_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_small_wheel_joint"
+    type="revolute">
+    <origin
+      xyz="0.31978 -0.2835 -0.073"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_smaal_wheel" />
+    <axis
+      xyz="0.0043627 0.99999 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="rp_laser_back">
+    <inertial>
+      <origin
+        xyz="-0.00393393719392465 1.45541326387055E-05 -0.00550433759472346"
+        rpy="0 0 0" />
+      <mass
+        value="0.165382757413928" />
+      <inertia
+        ixx="7.88186497400901E-05"
+        ixy="4.81327415297136E-08"
+        ixz="-1.82339073198479E-06"
+        iyy="7.51902892774038E-05"
+        iyz="-2.9420939238945E-08"
+        izz="0.000109993288450695" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/rp_laser_back.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 0.4" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/rp_laser_back.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rp_laser_back_joint"
+    type="fixed">
+    <origin
+      xyz="-0.36833 0.305 0.25299"
+      rpy="0 0 -0.436332" />
+    <parent
+      link="base_link" />
+    <child
+      link="rp_laser_back" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="rp_laser_front">
+    <inertial>
+      <origin
+        xyz="0.00417274073163831 7.93864644071385E-05 -0.00532501160387389"
+        rpy="0 0 0" />
+      <mass
+        value="0.165382782759051" />
+      <inertia
+        ixx="7.87141445089364E-05"
+        ixy="1.32968106585099E-07"
+        ixz="4.37269330421537E-07"
+        iyy="7.51948167581616E-05"
+        iyz="9.06152024097063E-08"
+        izz="0.000110093266294305" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/rp_laser_front.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 0.4" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/rp_laser_front.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rp_laser_front_joint"
+    type="fixed">
+    <origin
+      xyz="0.4012 -3.7661E-05 -0.092559"
+      rpy="0 0 0.00055161" />
+    <parent
+      link="base_link" />
+    <child
+      link="rp_laser_front"/>
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="camera">
+    <inertial>
+      <origin
+        xyz="-0.0128303969841449 0.000263456201996776 0.00120890764966197"
+        rpy="0 0 0" />
+      <mass
+        value="0.0247927918584364" />
+      <inertia
+        ixx="3.56506587063533E-05"
+        ixy="-1.1572052339377E-08"
+        ixz="-1.8226692503798E-07"
+        iyy="2.84011174627099E-06"
+        iyz="2.78712528047103E-08"
+        izz="3.35091989014233E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/camera.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_urdf/meshes/camera.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="camera_joint"
+    type="fixed">
+    <origin
+      xyz="-0.387035971879652 -0.00396906785592691 1.52648295547757"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="camera" />
+    <axis
+      xyz="-0.99739 -0.072202 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
 </robot>
