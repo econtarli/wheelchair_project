@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/umut/wheelchair_ws/devel/include/spencer_control_msgs/ComponentStatus.h"
+  "/home/meam/wheelchair_ws/devel/include/spencer_control_msgs/ComponentStatus.h"
   "CMakeFiles/spencer_control_msgs_generate_messages_cpp"
 )
 

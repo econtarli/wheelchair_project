@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/umut/wheelchair_ws/devel/lib/spencer_bagfile_tools/publish_camera_info"
-  "/home/umut/wheelchair_ws/devel/lib/spencer_bagfile_tools/publish_camera_info.pdb"
+  "/home/meam/wheelchair_ws/devel/lib/spencer_bagfile_tools/publish_camera_info"
+  "/home/meam/wheelchair_ws/devel/lib/spencer_bagfile_tools/publish_camera_info.pdb"
   "CMakeFiles/publish_camera_info.dir/src/spencer_bagfile_tools/publish_camera_info.cpp.o"
 )
 

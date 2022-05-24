@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/umut/wheelchair_ws/src
+CMAKE_SOURCE_DIR = /home/meam/wheelchair_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/umut/wheelchair_ws/build
+CMAKE_BINARY_DIR = /home/meam/wheelchair_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ navigation/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build: rosgraph_msg
 .PHONY : navigation/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 
 navigation/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	cd /home/umut/wheelchair_ws/build/navigation && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/meam/wheelchair_ws/build/navigation && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : navigation/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 navigation/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend:
-	cd /home/umut/wheelchair_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/umut/wheelchair_ws/src /home/umut/wheelchair_ws/src/navigation /home/umut/wheelchair_ws/build /home/umut/wheelchair_ws/build/navigation /home/umut/wheelchair_ws/build/navigation/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/meam/wheelchair_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/meam/wheelchair_ws/src /home/meam/wheelchair_ws/src/navigation /home/meam/wheelchair_ws/build /home/meam/wheelchair_ws/build/navigation /home/meam/wheelchair_ws/build/navigation/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : navigation/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 

@@ -67,14 +67,14 @@ set(rwth_perception_people_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rwth_perception_people_msgs_SOURCE_PREFIX /home/umut/wheelchair_ws/src/spencer_people_tracking/messages/rwth_perception_people_msgs)
-  set(rwth_perception_people_msgs_DEVEL_PREFIX /home/umut/wheelchair_ws/devel)
+  set(rwth_perception_people_msgs_SOURCE_PREFIX /home/meam/wheelchair_ws/src/spencer_people_tracking/messages/rwth_perception_people_msgs)
+  set(rwth_perception_people_msgs_DEVEL_PREFIX /home/meam/wheelchair_ws/devel)
   set(rwth_perception_people_msgs_INSTALL_PREFIX "")
   set(rwth_perception_people_msgs_PREFIX ${rwth_perception_people_msgs_DEVEL_PREFIX})
 else()
   set(rwth_perception_people_msgs_SOURCE_PREFIX "")
   set(rwth_perception_people_msgs_DEVEL_PREFIX "")
-  set(rwth_perception_people_msgs_INSTALL_PREFIX /home/umut/wheelchair_ws/install)
+  set(rwth_perception_people_msgs_INSTALL_PREFIX /home/meam/wheelchair_ws/install)
   set(rwth_perception_people_msgs_PREFIX ${rwth_perception_people_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/umut/wheelchair_ws/install/lib;/home/umut/wheelchair_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/meam/wheelchair_ws/install/lib;/home/meam/wheelchair_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

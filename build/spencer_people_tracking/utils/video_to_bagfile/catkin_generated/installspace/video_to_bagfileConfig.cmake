@@ -67,14 +67,14 @@ set(video_to_bagfile_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(video_to_bagfile_SOURCE_PREFIX /home/umut/wheelchair_ws/src/spencer_people_tracking/utils/video_to_bagfile)
-  set(video_to_bagfile_DEVEL_PREFIX /home/umut/wheelchair_ws/devel)
+  set(video_to_bagfile_SOURCE_PREFIX /home/meam/wheelchair_ws/src/spencer_people_tracking/utils/video_to_bagfile)
+  set(video_to_bagfile_DEVEL_PREFIX /home/meam/wheelchair_ws/devel)
   set(video_to_bagfile_INSTALL_PREFIX "")
   set(video_to_bagfile_PREFIX ${video_to_bagfile_DEVEL_PREFIX})
 else()
   set(video_to_bagfile_SOURCE_PREFIX "")
   set(video_to_bagfile_DEVEL_PREFIX "")
-  set(video_to_bagfile_INSTALL_PREFIX /home/umut/wheelchair_ws/install)
+  set(video_to_bagfile_INSTALL_PREFIX /home/meam/wheelchair_ws/install)
   set(video_to_bagfile_PREFIX ${video_to_bagfile_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/umut/wheelchair_ws/install/lib;/home/umut/wheelchair_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/meam/wheelchair_ws/install/lib;/home/meam/wheelchair_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

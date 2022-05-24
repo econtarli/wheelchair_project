@@ -28,4 +28,4 @@ llsamplestep: 0.01
 lasamplerange: 0.005
 lasamplestep: 0.005
 maxRange: 11.0
-base_frame: base_footprint
+base_frame: base_link

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/umut/wheelchair_ws/devel/lib/srl_laser_detectors/train_detector"
-  "/home/umut/wheelchair_ws/devel/lib/srl_laser_detectors/train_detector.pdb"
+  "/home/meam/wheelchair_ws/devel/lib/srl_laser_detectors/train_detector"
+  "/home/meam/wheelchair_ws/devel/lib/srl_laser_detectors/train_detector.pdb"
   "CMakeFiles/train_detector.dir/src/srl_laser_detectors/detector_factory.cpp.o"
   "CMakeFiles/train_detector.dir/src/srl_laser_detectors/learned_detectors/adaboost_detector.cpp.o"
   "CMakeFiles/train_detector.dir/src/srl_laser_detectors/learned_detectors/opencv_detector.cpp.o"

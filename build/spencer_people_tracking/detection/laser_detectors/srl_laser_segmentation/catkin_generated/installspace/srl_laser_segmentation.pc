@@ -1,4 +1,4 @@
-prefix=/home/umut/wheelchair_ws/install
+prefix=/home/meam/wheelchair_ws/install
 
 Name: srl_laser_segmentation
 Description: Description of srl_laser_segmentation

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/umut/wheelchair_ws/devel/lib/spencer_bagfile_tools/laser_scan_inverter"
-  "/home/umut/wheelchair_ws/devel/lib/spencer_bagfile_tools/laser_scan_inverter.pdb"
+  "/home/meam/wheelchair_ws/devel/lib/spencer_bagfile_tools/laser_scan_inverter"
+  "/home/meam/wheelchair_ws/devel/lib/spencer_bagfile_tools/laser_scan_inverter.pdb"
   "CMakeFiles/laser_scan_inverter.dir/src/spencer_bagfile_tools/laser_scan_inverter.cpp.o"
 )
 

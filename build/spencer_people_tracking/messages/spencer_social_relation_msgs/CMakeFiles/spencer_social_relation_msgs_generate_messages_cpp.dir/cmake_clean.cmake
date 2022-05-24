@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/umut/wheelchair_ws/devel/include/spencer_social_relation_msgs/SocialActivities.h"
-  "/home/umut/wheelchair_ws/devel/include/spencer_social_relation_msgs/SocialActivity.h"
-  "/home/umut/wheelchair_ws/devel/include/spencer_social_relation_msgs/SocialRelation.h"
-  "/home/umut/wheelchair_ws/devel/include/spencer_social_relation_msgs/SocialRelations.h"
+  "/home/meam/wheelchair_ws/devel/include/spencer_social_relation_msgs/SocialActivities.h"
+  "/home/meam/wheelchair_ws/devel/include/spencer_social_relation_msgs/SocialActivity.h"
+  "/home/meam/wheelchair_ws/devel/include/spencer_social_relation_msgs/SocialRelation.h"
+  "/home/meam/wheelchair_ws/devel/include/spencer_social_relation_msgs/SocialRelations.h"
   "CMakeFiles/spencer_social_relation_msgs_generate_messages_cpp"
 )
 

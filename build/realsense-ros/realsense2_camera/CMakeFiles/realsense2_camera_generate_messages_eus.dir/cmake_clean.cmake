@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/umut/wheelchair_ws/devel/share/roseus/ros/realsense2_camera/manifest.l"
-  "/home/umut/wheelchair_ws/devel/share/roseus/ros/realsense2_camera/msg/Extrinsics.l"
-  "/home/umut/wheelchair_ws/devel/share/roseus/ros/realsense2_camera/msg/IMUInfo.l"
-  "/home/umut/wheelchair_ws/devel/share/roseus/ros/realsense2_camera/msg/Metadata.l"
-  "/home/umut/wheelchair_ws/devel/share/roseus/ros/realsense2_camera/srv/DeviceInfo.l"
+  "/home/meam/wheelchair_ws/devel/share/roseus/ros/realsense2_camera/manifest.l"
+  "/home/meam/wheelchair_ws/devel/share/roseus/ros/realsense2_camera/msg/Extrinsics.l"
+  "/home/meam/wheelchair_ws/devel/share/roseus/ros/realsense2_camera/msg/IMUInfo.l"
+  "/home/meam/wheelchair_ws/devel/share/roseus/ros/realsense2_camera/msg/Metadata.l"
+  "/home/meam/wheelchair_ws/devel/share/roseus/ros/realsense2_camera/srv/DeviceInfo.l"
   "CMakeFiles/realsense2_camera_generate_messages_eus"
 )
 

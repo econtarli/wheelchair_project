@@ -1,8 +1,8 @@
-# Install script for directory: /home/umut/wheelchair_ws/src/spencer_people_tracking/detection/spencer_detected_person_conversion
+# Install script for directory: /home/meam/wheelchair_ws/src/spencer_people_tracking/detection/spencer_detected_person_conversion
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/umut/wheelchair_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/meam/wheelchair_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/umut/wheelchair_ws/build/spencer_people_tracking/detection/spencer_detected_person_conversion/catkin_generated/installspace/spencer_detected_person_conversion.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/meam/wheelchair_ws/build/spencer_people_tracking/detection/spencer_detected_person_conversion/catkin_generated/installspace/spencer_detected_person_conversion.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_detected_person_conversion/cmake" TYPE FILE FILES
-    "/home/umut/wheelchair_ws/build/spencer_people_tracking/detection/spencer_detected_person_conversion/catkin_generated/installspace/spencer_detected_person_conversionConfig.cmake"
-    "/home/umut/wheelchair_ws/build/spencer_people_tracking/detection/spencer_detected_person_conversion/catkin_generated/installspace/spencer_detected_person_conversionConfig-version.cmake"
+    "/home/meam/wheelchair_ws/build/spencer_people_tracking/detection/spencer_detected_person_conversion/catkin_generated/installspace/spencer_detected_person_conversionConfig.cmake"
+    "/home/meam/wheelchair_ws/build/spencer_people_tracking/detection/spencer_detected_person_conversion/catkin_generated/installspace/spencer_detected_person_conversionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_detected_person_conversion" TYPE FILE FILES "/home/umut/wheelchair_ws/src/spencer_people_tracking/detection/spencer_detected_person_conversion/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_detected_person_conversion" TYPE FILE FILES "/home/meam/wheelchair_ws/src/spencer_people_tracking/detection/spencer_detected_person_conversion/package.xml")
 endif()
 

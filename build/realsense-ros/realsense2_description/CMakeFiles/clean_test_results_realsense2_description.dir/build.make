@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/umut/wheelchair_ws/src
+CMAKE_SOURCE_DIR = /home/meam/wheelchair_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/umut/wheelchair_ws/build
+CMAKE_BINARY_DIR = /home/meam/wheelchair_ws/build
 
 # Utility rule file for clean_test_results_realsense2_description.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/umut/wheelchair_ws/build
 include realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_description.dir/progress.make
 
 realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_description:
-	cd /home/umut/wheelchair_ws/build/realsense-ros/realsense2_description && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/umut/wheelchair_ws/build/test_results/realsense2_description
+	cd /home/meam/wheelchair_ws/build/realsense-ros/realsense2_description && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/meam/wheelchair_ws/build/test_results/realsense2_description
 
 clean_test_results_realsense2_description: realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_description
 clean_test_results_realsense2_description: realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_description.dir/build.make
@@ -67,10 +67,10 @@ realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_de
 .PHONY : realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_description.dir/build
 
 realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_description.dir/clean:
-	cd /home/umut/wheelchair_ws/build/realsense-ros/realsense2_description && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_realsense2_description.dir/cmake_clean.cmake
+	cd /home/meam/wheelchair_ws/build/realsense-ros/realsense2_description && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_realsense2_description.dir/cmake_clean.cmake
 .PHONY : realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_description.dir/clean
 
 realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_description.dir/depend:
-	cd /home/umut/wheelchair_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/umut/wheelchair_ws/src /home/umut/wheelchair_ws/src/realsense-ros/realsense2_description /home/umut/wheelchair_ws/build /home/umut/wheelchair_ws/build/realsense-ros/realsense2_description /home/umut/wheelchair_ws/build/realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_description.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/meam/wheelchair_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/meam/wheelchair_ws/src /home/meam/wheelchair_ws/src/realsense-ros/realsense2_description /home/meam/wheelchair_ws/build /home/meam/wheelchair_ws/build/realsense-ros/realsense2_description /home/meam/wheelchair_ws/build/realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_description.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : realsense-ros/realsense2_description/CMakeFiles/clean_test_results_realsense2_description.dir/depend
 

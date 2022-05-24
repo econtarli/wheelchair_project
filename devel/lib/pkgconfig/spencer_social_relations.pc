@@ -1,4 +1,4 @@
-prefix=/home/umut/wheelchair_ws/devel
+prefix=/home/meam/wheelchair_ws/devel
 
 Name: spencer_social_relations
 Description: Description of spencer_social_relations

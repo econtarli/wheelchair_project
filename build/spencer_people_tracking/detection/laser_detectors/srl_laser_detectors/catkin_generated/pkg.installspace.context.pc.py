@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;sensor_msgs;srl_laser_segmentation;message_filters;message_runtime".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "srl_laser_detectors"
-PROJECT_SPACE_DIR = "/home/umut/wheelchair_ws/install"
+PROJECT_SPACE_DIR = "/home/meam/wheelchair_ws/install"
 PROJECT_VERSION = "1.3.1"

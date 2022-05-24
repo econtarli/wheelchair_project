@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/umut/wheelchair_ws/devel/lib/laser_filters/test_shadow_detector"
-  "/home/umut/wheelchair_ws/devel/lib/laser_filters/test_shadow_detector.pdb"
+  "/home/meam/wheelchair_ws/devel/lib/laser_filters/test_shadow_detector"
+  "/home/meam/wheelchair_ws/devel/lib/laser_filters/test_shadow_detector.pdb"
   "CMakeFiles/test_shadow_detector.dir/test/test_shadow_detector.cpp.o"
 )
 

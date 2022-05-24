@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -O3 -DNDEBUG
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"rwth_ground_plane\"
 
-CXX_INCLUDES = -I/home/umut/wheelchair_ws/src/spencer_people_tracking/utils/rwth_ground_plane/include -I/home/umut/wheelchair_ws/src/spencer_people_tracking/utils/rwth_ground_plane/include/rwth_ground_plane -I/home/umut/wheelchair_ws/devel/include -I/home/umut/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 
+CXX_INCLUDES = -I/home/meam/wheelchair_ws/src/spencer_people_tracking/utils/rwth_ground_plane/include -I/home/meam/wheelchair_ws/src/spencer_people_tracking/utils/rwth_ground_plane/include/rwth_ground_plane -I/home/meam/wheelchair_ws/devel/include -I/home/meam/wheelchair_ws/src/spencer_people_tracking/utils/spencer_diagnostics/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 
 

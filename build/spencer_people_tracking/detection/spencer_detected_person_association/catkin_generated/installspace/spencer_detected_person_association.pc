@@ -1,4 +1,4 @@
-prefix=/home/umut/wheelchair_ws/install
+prefix=/home/meam/wheelchair_ws/install
 
 Name: spencer_detected_person_association
 Description: Description of spencer_detected_person_association

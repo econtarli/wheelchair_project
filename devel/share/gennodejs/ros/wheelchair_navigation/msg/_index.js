@@ -1,12 +1,12 @@
 
 "use strict";
 
-let MotorReference = require('./MotorReference.js');
-let MotorMonitor = require('./MotorMonitor.js');
 let SpeedReference = require('./SpeedReference.js');
+let MotorMonitor = require('./MotorMonitor.js');
+let MotorReference = require('./MotorReference.js');
 
 module.exports = {
-  MotorReference: MotorReference,
-  MotorMonitor: MotorMonitor,
   SpeedReference: SpeedReference,
+  MotorMonitor: MotorMonitor,
+  MotorReference: MotorReference,
 };

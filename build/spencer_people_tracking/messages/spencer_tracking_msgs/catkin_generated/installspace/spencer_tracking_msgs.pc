@@ -1,4 +1,4 @@
-prefix=/home/umut/wheelchair_ws/install
+prefix=/home/meam/wheelchair_ws/install
 
 Name: spencer_tracking_msgs
 Description: Description of spencer_tracking_msgs

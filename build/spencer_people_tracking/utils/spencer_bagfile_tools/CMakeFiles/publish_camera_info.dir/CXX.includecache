@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/umut/wheelchair_ws/src/spencer_people_tracking/utils/spencer_bagfile_tools/src/spencer_bagfile_tools/publish_camera_info.cpp
+/home/meam/wheelchair_ws/src/spencer_people_tracking/utils/spencer_bagfile_tools/src/spencer_bagfile_tools/publish_camera_info.cpp
 ros/ros.h
 -
 sensor_msgs/CameraInfo.h

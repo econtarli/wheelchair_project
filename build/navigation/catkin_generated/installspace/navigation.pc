@@ -1,4 +1,4 @@
-prefix=/home/umut/wheelchair_ws/install
+prefix=/home/meam/wheelchair_ws/install
 
 Name: navigation
 Description: Description of navigation

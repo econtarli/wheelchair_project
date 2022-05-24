@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/umut/wheelchair_ws/devel/lib/rplidar_ros/rplidarNode"
-  "/home/umut/wheelchair_ws/devel/lib/rplidar_ros/rplidarNode.pdb"
+  "/home/meam/wheelchair_ws/devel/lib/rplidar_ros/rplidarNode"
+  "/home/meam/wheelchair_ws/devel/lib/rplidar_ros/rplidarNode.pdb"
   "CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o"

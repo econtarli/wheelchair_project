@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/umut/wheelchair_ws/src/spencer_people_tracking/tracking/people/srl_tracking_logfile_import"
+echo_and_run cd "/home/meam/wheelchair_ws/src/spencer_people_tracking/tracking/people/srl_tracking_logfile_import"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/umut/wheelchair_ws/install/lib/python3/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/meam/wheelchair_ws/install/lib/python3/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/umut/wheelchair_ws/install/lib/python3/dist-packages:/home/umut/wheelchair_ws/build/lib/python3/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/umut/wheelchair_ws/build" \
+    PYTHONPATH="/home/meam/wheelchair_ws/install/lib/python3/dist-packages:/home/meam/wheelchair_ws/build/lib/python3/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/meam/wheelchair_ws/build" \
     "/usr/bin/python3" \
-    "/home/umut/wheelchair_ws/src/spencer_people_tracking/tracking/people/srl_tracking_logfile_import/setup.py" \
+    "/home/meam/wheelchair_ws/src/spencer_people_tracking/tracking/people/srl_tracking_logfile_import/setup.py" \
      \
-    build --build-base "/home/umut/wheelchair_ws/build/spencer_people_tracking/tracking/people/srl_tracking_logfile_import" \
+    build --build-base "/home/meam/wheelchair_ws/build/spencer_people_tracking/tracking/people/srl_tracking_logfile_import" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/home/umut/wheelchair_ws/install" --install-scripts="/home/umut/wheelchair_ws/install/bin"
+    --install-layout=deb --prefix="/home/meam/wheelchair_ws/install" --install-scripts="/home/meam/wheelchair_ws/install/bin"

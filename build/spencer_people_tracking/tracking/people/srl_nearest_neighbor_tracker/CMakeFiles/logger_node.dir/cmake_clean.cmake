@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/umut/wheelchair_ws/devel/lib/srl_nearest_neighbor_tracker/logger_node"
-  "/home/umut/wheelchair_ws/devel/lib/srl_nearest_neighbor_tracker/logger_node.pdb"
+  "/home/meam/wheelchair_ws/devel/lib/srl_nearest_neighbor_tracker/logger_node"
+  "/home/meam/wheelchair_ws/devel/lib/srl_nearest_neighbor_tracker/logger_node.pdb"
   "CMakeFiles/logger_node.dir/src/srl_nearest_neighbor_tracker/ros/nodes/logger_node.cpp.o"
 )
 

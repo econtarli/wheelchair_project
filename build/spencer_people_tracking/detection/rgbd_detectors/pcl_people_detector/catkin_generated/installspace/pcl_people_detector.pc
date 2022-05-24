@@ -1,4 +1,4 @@
-prefix=/home/umut/wheelchair_ws/install
+prefix=/home/meam/wheelchair_ws/install
 
 Name: pcl_people_detector
 Description: Description of pcl_people_detector
