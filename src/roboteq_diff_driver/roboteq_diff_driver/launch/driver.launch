@@ -19,7 +19,7 @@
     <!-- specify whether to use open-loop motor speed control (as opposed to closed-loop)-->
     <param name="open_loop" value="false" />
     <!-- specify robot wheel circumference in meters  -->
-    <param name="wheel_circumference" value="0.324" />
+    <param name="wheel_circumference" value="0.31" />
     <!-- specify robot track width in meters  -->
     <param name="track_width" value="0.575" />
     <!-- specify pulse-per-revolution for motor encoders  -->
