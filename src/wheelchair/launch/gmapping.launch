@@ -14,5 +14,3 @@
         <rosparam command="load" file="$(find wheelchair)/param/gmapping_params.yaml" />
     </node>
 </launch>
-<!-- selamlar -->
-<!-- as -->
